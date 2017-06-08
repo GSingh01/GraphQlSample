@@ -1,0 +1,21 @@
+{
+  "name": "github-graphql-server",
+  "version": "1.0.0",
+  "description": "example project to learn graphql",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 server.js",
+    "test": "test"
+  },
+  "author": "GSingh",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1"
+  }
+}
